@@ -10,6 +10,11 @@
     <file url="file://$PROJECT_DIR$/10_src_Switch的使用/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/11_src_解决样式丢失问题/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/12_src_精准匹配与模糊匹配/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/13_src_Redirect的使用/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/14_src_嵌套路由的使用/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/15_src_向路由组件传递params参数/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/16_src_向路由组件传递search参数/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/17_src_向路由组件传递state参数(不可用）/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/App.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/pages/Header/index.jsx" charset="UTF-8" />

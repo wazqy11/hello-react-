@@ -29,7 +29,6 @@ class Home extends Component {
                     </Switch>
 
 
-
                 </div>
 
             </div>
