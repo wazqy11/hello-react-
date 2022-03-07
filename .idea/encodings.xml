@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/4_src_配置代理/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/5_src_github搜索案例_axios/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/6_src_github搜索案例_pubsub/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/App.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/Header/index.jsx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/index.js" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
