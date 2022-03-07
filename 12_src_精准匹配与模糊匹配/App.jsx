@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Redirect, Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Header from "./component/Header";
@@ -64,9 +64,11 @@ class App extends Component {
                             <div className="panel-body">
                                 {/*注册路由*/}
                                 <Switch>
-                                    <Route path="/home" component={Home}/>
-                                    <Route path="/about" component={About}/>
-                                    <Redirect to="/home"/>
+                                    {/* exact开启严格匹配，默认模糊匹配
+                                        模糊匹配：输入的路径必须包含匹配的路径，且顺序要一致
+                                        严格匹配不要随便开启，需要再开，有时候开启会导致无法匹配二级路由*/}
+                                    <Route exact={true} path="/about" component={About}/>
+                                    <Route exact={true} path="/home" component={Home}/>
                                 </Switch>
 
                             </div>
