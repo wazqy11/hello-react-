@@ -1,7 +1,38 @@
 import React, {Component} from 'react';
-import { Link, Route} from 'react-router-dom'
-import Home from "./components/Home";
-import About from "./components/About";
+import { NavLink, Route} from 'react-router-dom'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Header from "./component/Header";
+/*
+
+    路由组件与一般组件：
+        1.写法不同：
+            一般组件：<Demo/>
+            路由组件：<Route path="/demo" component={Demo}/>
+        2.存放位置不同
+            component里放一般组件
+            pages里放路由组件
+        3.接受到的props不同
+            一般组件：写标签时传递了什么，就能接收到什么
+            路由组件：接收到三个固定的属性
+                history:
+                    go: ƒ go(n)
+                    goBack: ƒ goBack()
+                    goForward: ƒ goForward()
+                    push: ƒ push(path, state)
+                    replace: ƒ replace(path, state)
+                    [[Prototype]]: Object
+                location:
+                    pathname: "/about"
+                    search: ""
+                    state: undefined
+                match:
+                    params: {}
+                    path: "/about"
+                    url: "/about"
+                    [[Prototype]]: Object
+                    staticContext: undefined
+ */
 
 class App extends Component {
     render() {
@@ -9,7 +40,7 @@ class App extends Component {
             <div>
                 <div className="row">
                     <div className="col-xs-offset-2 col-xs-8">
-                        <div className="page-header"><h2>React Router Demo</h2></div>
+                        <Header/>
                     </div>
                 </div>
 
@@ -21,8 +52,8 @@ class App extends Component {
                             {/*<a className="list-group-item active" href="./home.html">Home</a>*/}
 
                             {/* react中靠路由链接实现切换组件--编写路由链接   */}
-                            <Link className="list-group-item" to='/about'>About </Link>
-                            <Link className="list-group-item" to='/home'>Home </Link>
+                            <NavLink activeClassName="atguigu" className="list-group-item" to='/about'>About </NavLink>
+                            <NavLink activeClassName="atguigu" className="list-group-item" to='/home'>Home </NavLink>
 
 
                         </div>

@@ -5,9 +5,10 @@
     <file url="file://$PROJECT_DIR$/5_src_github搜索案例_axios/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/6_src_github搜索案例_pubsub/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/7_src_路由的基本使用/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/8_src_NavLink的使用/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/App.jsx" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/components/Header/index.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/pages/Header/index.jsx" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
