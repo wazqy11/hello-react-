@@ -11,12 +11,12 @@ const DetailData = [
 class Detail extends Component {
     render() {
         //接收params参数
-        const {id,title} = this.props.match.params
+        // const {id,title} = this.props.match.params
 
         //接受search参数
-        // const {search} = this.props.location
+        const {search} = this.props.location
         // console.log(qs.parse(search))
-        // const {id,title} = qs.parse(search.slice(1))
+        const {id,title} = qs.parse(search.slice(1))
 
         //接受state参数 貌似不可用
         // console.log(this.props)

@@ -24,10 +24,10 @@ class Message extends Component {
                                     {/*<Link to={`/home/message/detail/${msgObj.id}/${msgObj.title}`} >{msgObj.title}</Link>&nbsp;&nbsp;*/}
 
                                     {/*向路由组件传递search参数*/}
-                                    {/*<Link to={`/home/message/detail/?id=${msgObj.id}&title=${msgObj.title}`} >{msgObj.title}</Link>&nbsp;&nbsp;*/}
+                                    <Link replace={true} to={`/home/message/detail/?id=${msgObj.id}&title=${msgObj.title}`} >{msgObj.title}</Link>&nbsp;&nbsp;
 
                                     {/*向路由组件传递state参数*/}
-                                    <Link to={{pathname:'/home/message/detail/',state:{id:msgObj.id,title:msgObj.title}}} >{msgObj.title}</Link>&nbsp;&nbsp;
+                                    {/*<Link to={{pathname:'/home/message/detail/',state:{id:msgObj.id,title:msgObj.title}}} >{msgObj.title}</Link>&nbsp;&nbsp;*/}
                                 </li>
                             )
                         })
@@ -39,11 +39,11 @@ class Message extends Component {
                 {/*<Route  path="/home/message/detail/:id/:title" component={Detail}/>*/}
 
                 {/*search参数 无需声明接受，正常注册路由即可*/}
-                {/*<Route path="/home/message/detail/" component={Detail}/>*/}
+                <Route path="/home/message/detail/" component={Detail}/>
 
                 {/*貌似不可用*/}
                 {/*state参数 无需声明接受，正常注册路由即可*/}
-                <Route  path="/home/message/detail" component={Detail}/>
+                {/*<Route  path="/home/message/detail" component={Detail}/>*/}
             </div>
 
         );

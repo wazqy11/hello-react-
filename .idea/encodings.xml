@@ -15,6 +15,9 @@
     <file url="file://$PROJECT_DIR$/15_src_向路由组件传递params参数/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/16_src_向路由组件传递search参数/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/17_src_向路由组件传递state参数(不可用）/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/18_src_push与replace模式/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/19_src_编程式路由导航/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/20_src_withRouter的使用/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/App.jsx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/index.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/pages/Header/index.jsx" charset="UTF-8" />
